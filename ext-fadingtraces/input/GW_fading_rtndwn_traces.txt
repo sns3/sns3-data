@@ -1,0 +1,5 @@
+0 GW_ID1_fading_rtndwn.dat 50.25 3.75 0.0
+1 GW_ID2_fading_rtndwn.dat 64.00 8.25 0.0
+2 GW_ID3_fading_rtndwn.dat 42.25 -4.50 0.0
+3 GW_ID4_fading_rtndwn.dat 44.50 13.50 0.0
+4 GW_ID5_fading_rtndwn.dat 37.25 23.75 0.0
