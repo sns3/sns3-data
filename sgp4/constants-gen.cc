@@ -277,8 +277,6 @@ int main(int argc, char* argv[]) {
   const std::string usage = "<header | source> path";
   std::ofstream out;
   std::ifstream leap, eop;
-  std::string argv2(argv[2]);
-  std::string filename, base_path = argv2 + "/../data/sgp4/";
   std::vector<uint32_t> leap_seconds;
   std::vector<EopParameters> eop_params;
 
@@ -290,6 +288,7 @@ int main(int argc, char* argv[]) {
 
   std::string opt(argv[1]);
   std::string path(argv[2]);
+  std::string filename, base_path = path + "/../data/sgp4/";
 
   path = (path[path.size()-1] == '/' ? path : (path + "/"));
 
