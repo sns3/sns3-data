@@ -7,5 +7,5 @@ This repository contains :
 * \*trace/input : folders for storing external traces files
 * sinrmeaserror/ : SINR Measurement error file
 
-This repository is a sub-module of the SNS3 project (see 
+This repository is a sub-module of the SNS3 project (see
 https://github.com/sns3/sns3-satellite)
