@@ -81,11 +81,13 @@ ReadLine(std::istream& in, std::string& str)
 void
 PrintCopyright(std::ofstream& f)
 {
-    f << "/* -*-  Mode: C++; c-file-style: \"gnu\"; indent-tabs-mode:nil; -*- */\n"
+    f << "/* -*-  Mode: C++; c-file-style: \"gnu\"; indent-tabs-mode:nil; -*- "
+         "*/\n"
          "/*\n"
          " * Copyright (c) 2016 INESC TEC\n"
          " *\n"
-         " * This program is free software; you can redistribute it and/or modify\n"
+         " * This program is free software; you can redistribute it and/or "
+         "modify\n"
          " * it under the terms of the GNU General Public License version 2 as\n"
          " * published by the Free Software Foundation;\n"
          " *\n"
@@ -96,7 +98,8 @@ PrintCopyright(std::ofstream& f)
          " *\n"
          " * You should have received a copy of the GNU General Public License\n"
          " * along with this program; if not, write to the Free Software\n"
-         " * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA\n"
+         " * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  "
+         "02111-1307  USA\n"
          " *\n"
          " * Author: Pedro Silva  <pmms@inesctec.pt>\n"
          " *\n"
@@ -115,10 +118,13 @@ PrintAutoGenInfo(std::ofstream& f)
       << "\n"
       << " *            data/sgp4/ folder using the latest files\n"
       << " *            provided at:\n"
-      << " * http://www.usno.navy.mil/USNO/earth-orientation/eo-info/general/bullc"
+      << " * "
+         "http://www.usno.navy.mil/USNO/earth-orientation/eo-info/general/bullc"
       << "\n * and \n"
-      << " * http://www.usno.navy.mil/USNO/earth-orientation/eo-products/weekly or\n"
-         " * http://www.iers.org/IERS/EN/DataProducts/EarthOrientationData/eop.html"
+      << " * http://www.usno.navy.mil/USNO/earth-orientation/eo-products/weekly "
+         "or\n"
+         " * "
+         "http://www.iers.org/IERS/EN/DataProducts/EarthOrientationData/eop.html"
          "\n */"
       << std::endl;
 }
@@ -320,7 +326,7 @@ ReadEopParameters(std::ifstream& f)
 int
 main(int argc, char* argv[])
 {
-    const std::string usage = "<header | source> path";
+    const std::string usage = " <header | source> path";
     std::ofstream out;
     std::ifstream leap, eop;
     std::vector<uint32_t> leap_seconds;
@@ -341,7 +347,7 @@ main(int argc, char* argv[])
 
     if (opt != "header" && opt != "source")
     {
-        std::cerr << "Usage: " << argv[0] << " " << usage << std::endl;
+        std::cerr << "Usage: " << argv[0] << usage << std::endl;
 
         return -1;
     }
