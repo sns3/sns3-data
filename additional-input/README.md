@@ -1,7 +1,7 @@
 # SNS3 additional-data
 
 This repository contains :
-- `antennapatterns`: all antenna patterns are stored here. There may be several configrations. Due to the huge size of these patterns, scenarios from [scenario folder](../scenarios) use symbolic links to point to this folder, in order to avoid having to duplicate antenna patterns in several scenarios
+- `antennapatterns`: all antenna patterns are stored here. There may be several configurations. Due to the huge size of these patterns, scenarios from [scenario folder](../scenarios) use symbolic links to point to this folder, in order to avoid having to duplicate antenna patterns in several scenarios
 - `ext-fadingtraces`: folder containing additional external fading traces. They can be loaded using the following attributes
     - `ns3::SatChannel::EnableExternalFadingInputTrace`
     - `ns3::SatFadingExternalInputTraceContainer::UtFwdDownIndexFileName`
