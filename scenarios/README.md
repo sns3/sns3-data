@@ -4,6 +4,7 @@ This folder contains all the available scenarios created:
 
 - `constellation-eutelsat-geo-2-sats-isls`: see [README](constellation-eutelsat-geo-2-sats-isls/README.md)
 - `constellation-eutelsat-geo-2-sats-no-isls`: see [README](constellation-eutelsat-geo-2-sats-no-isls/README.md)
+- `constellation-eutelsat-geo-2-sats-handovers`: see [README](constellation-eutelsat-geo-2-sats-handovers/README.md)
 - `constellation-iridium-next-66-sats`: see [README](constellation-iridium-next-66-sats/README.md)
 - `constellation-kuiper-1156-sats`: see [README](constellation-kuiper-1156-sats/README.md)
 - `constellation-starlink-1584-sats`: see [README](constellation-starlink-1584-sats/README.md)
