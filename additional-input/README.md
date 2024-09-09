@@ -9,8 +9,8 @@ This repository contains :
 - `fadingtraces`: folder containing fading traces. This configuration is made by setting attribute `ns3::SatBeamHelper::FadingModel` to `SatEnums::FADING_TRACE`
 - `interferencetraces`: folder containing interference traces. They can be loaded setting the following attributes to `SatPhyRxCarrierConf::IF_TRACE`
     - `ns3::SatGwHelper::DaRtnLinkInterferenceModel`
-    - `ns3::SatGeoHelper::DaRtnLinkInterferenceModel`
-    - `ns3::SatGeoHelper::DaFwdLinkInterferenceModel`
+    - `ns3::SatOrbiterHelper::DaRtnLinkInterferenceModel`
+    - `ns3::SatOrbiterHelper::DaFwdLinkInterferenceModel`
     - `ns3::SatUtHelper::DaFwdLinkInterferenceModel`
 - `linkresults`: contains link results for all MODCOD (i.e. waveform) that can be used. Only the waveforms that can be used in a scenario are automatically loaded by the helpers, depending on the parameters (`DVB` or `LORA`, `S2` or `S2X`, etc.). Each link result contains several working points with format `SNR BLER`
 - `rxpowertraces`: folder containing RX power density traces. They can be loaded setting the attribute `ns3::SatChannel::RxPowerCalculationMode` to `SatEnums::RX_PWR_INPUT_TRACE`
